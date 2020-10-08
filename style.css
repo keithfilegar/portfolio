@@ -77,6 +77,10 @@ main #about {
     padding-bottom: 5px;
 }
 
+.portfolio-image {
+    border: 1px solid black;
+}
+
 .text-center {
     text-align: center;
 }
