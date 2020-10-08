@@ -12,7 +12,7 @@ body {
 main {
     padding-top: 5px;
     padding-bottom: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #B7AD99;
 }
 
@@ -59,7 +59,7 @@ main #about {
     background-color: #465f6d;
     color: snow;
     padding: 20px 0 30px 0;
-    margin: 120px 0;
+    margin: 200px 0;
 }
 
 .item {
@@ -115,8 +115,26 @@ a:active {
 
 /* media queries */
 @media all and (min-width: 800px) {
+
+    main {
+        font-size: 18px;
+    }
+    
+    main #intro h2 {
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
+    main #about h2 {
+        margin-top: 50px;
+    }
+    
+    main #portfolio {
+        margin: 10px;
+    }
+
     .wrapper {
-        width: 100;
+        width: 85%;
         margin: auto;
     }
     
