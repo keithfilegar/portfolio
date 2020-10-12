@@ -85,6 +85,28 @@ main #about {
     text-align: center;
 }
 
+/* Navigation Styling */
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li a:link {
+    color: lightgray;
+}
+
+header nav ul li a:visited {
+    color: slategray;
+}
+
 /* Styling for contact form*/
 form input,
 form textarea {
