@@ -85,6 +85,16 @@ main #about {
     text-align: center;
 }
 
+/* Styling for contact form*/
+form input,
+form textarea {
+    width: 100%;
+}
+
+form textarea {
+    height: 200px;
+}
+
 /* Style header and footer banners */
 .banner {
     margin: auto;
