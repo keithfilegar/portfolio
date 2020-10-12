@@ -59,7 +59,7 @@ main #about {
     background-color: #465f6d;
     color: snow;
     padding: 20px 0 30px 0;
-    margin: 200px 0;
+    margin: 200px 0;    
 }
 
 .item {
@@ -128,12 +128,8 @@ a:active {
     main #about h2 {
         margin-top: 50px;
     }
-    
-    main #portfolio {
-        margin: 10px;
-    }
 
-    .wrapper {
+    #intro, #portfolio, #contact {
         width: 85%;
         margin: auto;
     }
