@@ -3,10 +3,15 @@
 }
 
 /* Element targets */
+h1 {
+    font-size: 52px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
 
 body {
     margin: 0;
-    
 }
 
 main {
@@ -19,11 +24,6 @@ main {
 main img {
     width: 100%;
     border-radius: 5%;
-}
-
-hr {
-    height: 1px;
-    border: none;
 }
 
 header p{
@@ -58,8 +58,8 @@ header p{
 main #about {
     background-color: #465f6d;
     color: snow;
-    padding: 20px 0 30px 0;
-    margin: 200px 0;    
+    padding: 20px 60px 30px 60px;
+       
 }
 
 .item {
@@ -85,6 +85,36 @@ main #about {
     text-align: center;
 }
 
+/* Navigation Styling */
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;  
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+header nav ul li a:link {
+    color: lightgray;
+}
+
+header nav ul li a:visited {
+    color: slategray;
+}
+
 /* Styling for contact form*/
 form input,
 form textarea {
@@ -97,7 +127,6 @@ form textarea {
 
 /* Style header and footer banners */
 .banner {
-    margin: auto;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -146,5 +175,26 @@ a:active {
     
     .group {
         flex-direction: row;
+    }
+
+    /* Desktop navigation styling */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 60px;
+    }
+
+    h1 {
+        font-size: 48px;
+        margin: 14px 0;
+    }
+
+    header nav {
+        align-items: center;
+    }
+
+    header nav ul li {
+        font-size: 18px;
     }
 }
