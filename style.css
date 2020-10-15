@@ -138,8 +138,12 @@ header nav ul {
     list-style: none;
 }
 
+header nav ul li {
+    font-size: 20px;
+}
+
 header nav ul li a {
-    color: white;
+    color: rgb(160, 158, 158);
     text-decoration: none;
     margin: 0 20px 0 0;
 }
@@ -168,7 +172,7 @@ form textarea {
 
 /* Style header and footer banners */
 .banner {
-    color: white;
+    color: rgb(216, 211, 211);
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: Helvetica, sans-serif;
@@ -199,6 +203,14 @@ a:active {
     main {
         font-size: 18px;
     }
+
+    h1 {
+        padding-left: 30px;
+    }
+
+    nav {
+        padding-right: 30px;
+    }
     
     main #intro h2 {
         padding-top: 50px;
@@ -213,7 +225,7 @@ a:active {
     }
 
     #intro, #about-content, #portfolio, #contact {
-        width: 85%;
+        width: 95%;
         margin: auto;
     }
     
