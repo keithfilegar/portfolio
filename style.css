@@ -7,7 +7,7 @@ h1 {
     font-size: 52px;
     text-align: center;
     margin: 0;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -52,13 +52,29 @@ header p{
     display: block;
 }
 
+main article {
+    padding: 0px 60px 30px 60px;
+}
+
+/* Flexbox styling */
 .group {
     display: flex;
     flex-direction: column;
 }
 
-main article {
-    padding: 0px 60px 30px 60px;
+.item {
+    flex: 1;
+    padding: 5px 10px 10px 10px;
+}
+
+.item-double {
+    flex: 2;
+    margin: 20px;
+}
+
+.profile-photo-container {
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 /* About Me styling */
@@ -79,21 +95,6 @@ main #about .group {
 
 .about-image {
     padding-top: 0;
-}
-
-.item {
-    flex: 1;
-    padding: 5px 10px 10px 10px;
-}
-
-.item-double {
-    flex: 2;
-    margin: 20px;
-}
-
-.profile-photo-container {
-    padding-top: 20px;
-    padding-bottom: 5px;
 }
 
 /* Portfolio Styling */
